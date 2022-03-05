@@ -45,8 +45,25 @@
   src: url(Satisfy-Regular.ttf);
 }
 
+@font-face {
+  font-family: poem;
+  src: url(SyneMono-Regular.ttf);
+}
+
 h1, h2 {
   font-family: subHeader;
+}
+
+.poem {
+  background-color: #020202;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(3px + 2vmin);
+  color: #8C0B0B;
+  font-family: poem;
 }
 
 @keyframes custom-animation {
