@@ -1,4 +1,42 @@
+import { Children } from "react"
 import { ParallaxProvider, Parallax } from "react-scroll-parallax"
+
+// const poemLines = [
+//     "Open my heart",
+//     "So that it may search for truth",
+//     "In the world",
+//     "Outside of this surgical gallery.",
+//     "The sterile steel you drag across my chest",
+//     "Bleeds out all that was left inside.",
+//     "My white blood cells",
+//     "And whatever harm they couldn’t help but absorb.",
+//     "Take me apart",
+//     "With your own hands",
+//     "Show the spectators who I am to you.",
+//     "And, let me see it, for myself",
+//     "Before the ventilator expires."
+
+// ]
+
+// const Line = () => {
+//     return (
+//         <Parallax rotateX={['0deg','360deg']}>
+//             <p>{Children}</p>
+//         </Parallax>
+
+//     )
+        
+// }
+
+// const PoemFull = poemLines.map(() => <Line />);
+
+// const Poem = () => {
+//     return (
+//         <ParallaxProvider>
+//             {PoemFull}
+//         </ParallaxProvider>
+//     )
+// }
 
 const Poem = () => {
     return (
