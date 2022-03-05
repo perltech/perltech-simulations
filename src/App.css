@@ -10,7 +10,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     /* animation: custom-animation infinite 10s linear; */
-    animation: custom-animation infinite 30s ease-in-out;
+    animation: custom-animation infinite 30s ease-in-out alternate;
   }
 }
 
