@@ -55,7 +55,8 @@ h1, h2 {
 }
 
 .poem {
-  background-color: #020202;
+  /* background-color: #020202; */
+  background-image: url("./website_bg_1.png");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
