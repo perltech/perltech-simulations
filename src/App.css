@@ -42,12 +42,12 @@
 
 @font-face {
   font-family: subHeader;
-  src: url(Satisfy-Regular.ttf);
+  src: url(assets/fonts/Satisfy-Regular.ttf);
 }
 
 @font-face {
   font-family: poem;
-  src: url(SyneMono-Regular.ttf);
+  src: url(assets/fonts/SyneMono-Regular.ttf);
 }
 
 h1, h2 {
@@ -56,7 +56,7 @@ h1, h2 {
 
 .poem {
   /* background-color: #020202; */
-  background-image: url("./website_bg_1.png");
+  background-image: url("assets/images/poem_bg.png");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -68,7 +68,7 @@ h1, h2 {
 
 }
 
-.poem2 {
+.secretQuote {
   background-color: #020202;
   min-height: 100vh;
   display: flex;
