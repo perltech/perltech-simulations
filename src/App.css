@@ -57,6 +57,8 @@ h1, h2 {
 .poem {
   /* background-color: #020202; */
   background-image: url("assets/images/poem_bg.png");
+  background-size: auto;
+  background-repeat: repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -80,6 +82,20 @@ h1, h2 {
   font-family: poem;
   line-height: 10%;
 	letter-spacing: 3%;
+}
+
+.secretInput input {
+  font-size: calc(3px + 2vmin);
+  width: 50%;
+  background-color: #020202;
+  color: #EA1A1A;
+  font-family: poem;
+  text-align: center;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #510303;
+  opacity: 1; /* Firefox */
 }
 
 

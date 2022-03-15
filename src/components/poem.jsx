@@ -30,7 +30,8 @@ import { ParallaxProvider, Parallax } from "react-scroll-parallax"
 
 // const PoemFull = poemLines.map(() => <Line />);
 
-// const Poem = () => {
+// const Poem = () => {\
+
 //     return (
 //         <ParallaxProvider>
 //             {PoemFull}
