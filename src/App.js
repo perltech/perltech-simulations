@@ -17,6 +17,8 @@ function App() {
 
   return (
       <div className="App">
+        {/* Reverses render order, where new components come in at the top. */}
+        <Outlet />
         <header className="App-header">
           <Banner />
         </header>
@@ -26,7 +28,6 @@ function App() {
           <div className='secretInput'>
             <SecretInput  phrase={phrase} secretPhrase={secretPhrase} onChange={e => setPhrase(e.target.value.toLowerCase())} />
           </div>
-          <Outlet />
         </main>
       </div>
   );
