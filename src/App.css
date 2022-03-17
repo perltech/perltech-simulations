@@ -108,8 +108,6 @@ h1, h2, h3 {
   font-size: calc(3px + 2vmin);
   color: #EA1A1A;
   font-family: poem;
-  line-height: 10%;
-	letter-spacing: 3%;
 }
 
 @keyframes custom-animation {

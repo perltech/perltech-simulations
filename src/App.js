@@ -17,7 +17,7 @@ function App() {
 
   return (
       <div className="App">
-        {/* Reverses render order, where new components come in at the top. */}
+        {/* Reverses render order, where new components come in at the top */}
         <Outlet />
         <header className="App-header">
           <Banner />
