@@ -50,10 +50,6 @@
   src: url(assets/fonts/SyneMono-Regular.ttf);
 }
 
-h1, h2 {
-  font-family: subHeader;
-}
-
 .poem {
   /* background-color: #020202; */
   background-image: url("assets/images/poem_bg.png");
@@ -67,7 +63,11 @@ h1, h2 {
   font-size: calc(3px + 2vmin);
   color: #8C0B0B;
   font-family: poem;
+}
 
+h1, h2, h3 {
+  font-family: subHeader;
+  font-weight: 600;
 }
 
 .secretQuote {
@@ -98,6 +98,19 @@ h1, h2 {
   opacity: 1; /* Firefox */
 }
 
+.happy {
+  background-color: #020202;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(3px + 2vmin);
+  color: #EA1A1A;
+  font-family: poem;
+  line-height: 10%;
+	letter-spacing: 3%;
+}
 
 @keyframes custom-animation {
   from {

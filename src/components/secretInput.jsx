@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const QRRoute = ({route}) => {
     return (
         <div>
+            <h3> Scan Or Click Me </h3>
             <Link to="/happy">
                 <QRCode value={window.location.origin + route}/>        
             </Link>

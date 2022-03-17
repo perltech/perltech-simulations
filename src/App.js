@@ -8,6 +8,7 @@ import SecretQuote from './components/secretQuote';
 import SecretInput from './components/secretInput';
 
 import QRCode from 'qrcode.react'
+import { Outlet } from 'react-router-dom';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           <div className='secretInput'>
             <SecretInput  phrase={phrase} secretPhrase={secretPhrase} onChange={e => setPhrase(e.target.value.toLowerCase())} />
           </div>
-
+          <Outlet />
         </main>
       </div>
   );
