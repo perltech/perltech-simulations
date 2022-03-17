@@ -1,4 +1,4 @@
-const SecretQuote = () => {
+export default function SecretQuote(){
     return (
         <section className='secretQuote'>
             YOUR BEST SOURCE FOR TRUTH YOUR BEST SOURCE FOR TRUTH YOUR BEST SOURCE FOR TRUTH YOUR BEST SOURCE FOR TRUTH YOUR BEST SOURCE FOR TRUTH YOUR BEST SOURCE FOR TRUTH YOUR BEST SOURCE FOR TRUTH YOUR BEST SOURCE FOR TRUTH
@@ -6,5 +6,3 @@ const SecretQuote = () => {
         </section>
     )
 }
-
-export default SecretQuote;

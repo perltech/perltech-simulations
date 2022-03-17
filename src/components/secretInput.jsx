@@ -12,7 +12,7 @@ const QRRoute = ({route}) => {
     )
 }
 
-export default function secretInput({phrase, secretPhrase, onChange}) {
+export default function SecretInput({phrase, secretPhrase, onChange}) {
     return (
         <div>
             <input type="text" placeholder="What is the secret phrase?" onChange={onChange}/>

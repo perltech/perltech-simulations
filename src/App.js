@@ -2,10 +2,10 @@ import { useState } from 'react';
 
 import './App.css';
 
-import Banner from './components/banner.jsx';
-import Poem from './components/poem.jsx';
-import SecretQuote from './components/secretQuote';
-import SecretInput from './components/secretInput';
+import Banner from './components/Banner.jsx';
+import Poem from './components/Poem.jsx';
+import SecretQuote from './components/SecretQuote';
+import SecretInput from './components/SecretInput';
 
 import QRCode from 'qrcode.react'
 import { Outlet } from 'react-router-dom';
