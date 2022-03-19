@@ -1,8 +1,4 @@
-import { useState } from "react";
-
 export default function Chapter01Scene01() {
-    const [playerCount, setPlayerCount] = useState("");
-
     return (
         <section>
             <p>
@@ -16,9 +12,6 @@ export default function Chapter01Scene01() {
             <p>
                 Did you crack this code by yourself, or did you receive help from another?
             </p>
-
-            <button onClick={e => setPlayerCount(playerCount + "SinglePlayer")}>Single Player</button>
-            <button onClick={e => setPlayerCount(playerCount + "MultiPlayer")}>Multiplayer</button>
         </section>
     )
 }

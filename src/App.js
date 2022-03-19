@@ -8,12 +8,18 @@ import SecretQuote from './components/SecretQuote';
 import SecretInput from './components/SecretInput';
 
 import QRCode from 'qrcode.react'
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
+
+
+import Chapter01Scene01 from './components/CYOA/Chapter01/Chapter01Scene01';
 
 
 function App() {
   const [phrase, setPhrase] = useState("");
   let secretPhrase = "your best source for truth";
+
+  let [playerCount, setPlayerCount] = useState("");
+
 
   return (
       <div className="App">
@@ -27,6 +33,12 @@ function App() {
           <SecretQuote />
           <div className='secretInput'>
             <SecretInput  phrase={phrase} secretPhrase={secretPhrase} onChange={e => setPhrase(e.target.value.toLowerCase())} />
+            <br />
+            {phrase === secretPhrase ? <Chapter01Scene01 className='scene'/> : ""}
+            {phrase === secretPhrase ? <button onClick={() => setPlayerCount(playerCount = "SinglePlayer")}>Single Player</button> : ""}
+            {phrase === secretPhrase ? <button onClick={() => setPlayerCount(playerCount = "MultiPlayer")}>Multiplayer</button> : ""}
+            <br />      
+            {playerCount ? <Link to="/chapter01scene02route"><button style={{ "font-family": "subHeader" }} onClick={() => window.scrollTo(0, 0)}>Scroll to the top</button></Link> : ""}
           </div>
         </main>
       </div>

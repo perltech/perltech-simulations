@@ -16,11 +16,11 @@ export default function SecretInput({phrase, secretPhrase, onChange}) {
     return (
         <div>
             <input type="text" placeholder="What is the secret phrase?" onChange={onChange}/>
-            <br />
+            {/* <br />
             <br />
             {phrase === secretPhrase ? <QRRoute route={'/happy'}/> : ""}
             <br />
-            <br />
+            <br /> */}
         </div>
     )
 }
