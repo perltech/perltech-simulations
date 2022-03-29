@@ -7,8 +7,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Happy from './routes/happy.jsx'
-import Sad from './routes/sad.jsx'
 import Chapter01Scene02 from './components/CYOA/Chapter01/Chapter01Scene02';
 
 ReactDOM.render(
@@ -17,7 +15,6 @@ ReactDOM.render(
       <Routes>
         <Route path='/' element={<App />} >
           <Route path='chapter01scene02route' element={<Chapter01Scene02 />} />
-          <Route path='sad' element={<Sad />} />  
         </Route>
       </Routes>
     </BrowserRouter>

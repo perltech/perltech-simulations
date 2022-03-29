@@ -2,7 +2,7 @@ export default function Chapter01Scene02() {
     return (
         <section>
             <p>
-                TEST 02
+                Check back here for more coming soon...
             </p>
         </section>
     )

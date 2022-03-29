@@ -24,7 +24,8 @@ function App() {
   return (
       <div className="App">
         {/* Reverses render order, where new components come in at the top */}
-        <Outlet />
+        {playerCount ? <div className='scene'><Outlet /></div> : ""}
+        
         <header className="App-header">
           <Banner />
         </header>
@@ -35,8 +36,8 @@ function App() {
             <SecretInput  phrase={phrase} secretPhrase={secretPhrase} onChange={e => setPhrase(e.target.value.toLowerCase())} />
             <br />
             {phrase === secretPhrase ? <Chapter01Scene01 className='scene'/> : ""}
-            {phrase === secretPhrase ? <button onClick={() => setPlayerCount(playerCount = "SinglePlayer")}>Single Player</button> : ""}
-            {phrase === secretPhrase ? <button onClick={() => setPlayerCount(playerCount = "MultiPlayer")}>Multiplayer</button> : ""}
+            {phrase === secretPhrase ? <button onClick={() => setPlayerCount(playerCount = "SinglePlayer")}>By Myself</button> : ""}
+            {phrase === secretPhrase ? <button onClick={() => setPlayerCount(playerCount = "MultiPlayer")}>With Another</button> : ""}
             <br />      
             {playerCount ? <Link to="/chapter01scene02route"><button style={{ "font-family": "subHeader" }} onClick={() => window.scrollTo(0, 0)}>Scroll to the top</button></Link> : ""}
           </div>
