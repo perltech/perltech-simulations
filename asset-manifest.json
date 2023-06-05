@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/perltech-simulations/static/css/main.d31f30ce.css",
-    "main.js": "/perltech-simulations/static/js/main.08b0d5af.js",
+    "main.js": "/perltech-simulations/static/js/main.6645d102.js",
     "static/js/787.50b4f4f2.chunk.js": "/perltech-simulations/static/js/787.50b4f4f2.chunk.js",
     "static/media/SyneMono-Regular.ttf": "/perltech-simulations/static/media/SyneMono-Regular.1d127ec799153de3a432.ttf",
     "static/media/PerlTech_Simulations_Logo_Red.png": "/perltech-simulations/static/media/PerlTech_Simulations_Logo_Red.79d9640e49d728049a63.png",
     "static/media/Satisfy-Regular.ttf": "/perltech-simulations/static/media/Satisfy-Regular.32a6713537cf5e1e82f2.ttf",
     "index.html": "/perltech-simulations/index.html",
     "main.d31f30ce.css.map": "/perltech-simulations/static/css/main.d31f30ce.css.map",
-    "main.08b0d5af.js.map": "/perltech-simulations/static/js/main.08b0d5af.js.map",
+    "main.6645d102.js.map": "/perltech-simulations/static/js/main.6645d102.js.map",
     "787.50b4f4f2.chunk.js.map": "/perltech-simulations/static/js/787.50b4f4f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d31f30ce.css",
-    "static/js/main.08b0d5af.js"
+    "static/js/main.6645d102.js"
   ]
 }
