@@ -11,7 +11,7 @@ import Chapter01Scene02 from './components/CYOA/Chapter01/Chapter01Scene02';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<App />} >
           <Route path='chapter01scene02route' element={<Chapter01Scene02 />} />
