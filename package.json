@@ -5,7 +5,7 @@
   "engines": {
     "node": "16.x"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
