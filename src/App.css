@@ -65,6 +65,12 @@
   font-family: poem;
 }
 
+a {
+  font-size: calc(3px + 5vmin);
+  color: #EA1A1A;
+  font-family: poem;
+}
+
 h1, h2, h3 {
   font-family: subHeader;
   font-weight: 600;

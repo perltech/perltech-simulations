@@ -12,6 +12,7 @@ import { Link, Outlet } from 'react-router-dom';
 
 
 import Chapter01Scene01 from './components/CYOA/Chapter01/Chapter01Scene01';
+import PortfolioLink from './components/PortfolioLink';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         
         <header className="App-header">
           <Banner />
+          <PortfolioLink className='p-link' />
         </header>
         <main className='App-main'>
           <Poem className='poem' />

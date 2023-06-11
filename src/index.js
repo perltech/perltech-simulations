@@ -14,7 +14,7 @@ ReactDOM.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<App />} >
-          <Route path='chapter01scene02route' element={<Chapter01Scene02 />} />
+          {/* <Route path='chapter01scene02route' element={<Chapter01Scene02 />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>
